@@ -1,0 +1,7 @@
+#!
+
+for file in /home/kip/Documents/journal/*;  do
+
+	filename=$(basename "$file")
+	cp "$file" "/home/kip/Documents/ob_jounal/$filename.md"
+done
